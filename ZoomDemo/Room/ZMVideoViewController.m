@@ -59,7 +59,7 @@
     RTMeetOption *option = [RTMeetOption defaultOption];
     option.videoScreenOrientation =  RTC_SCRN_Auto;
     option.videoMode = AnyRTCVideoQuality_Low2;
-    option.maxNum = 64;
+    option.maxNum = 32;
     // 设置zoom 模式
     option.meetingType = AnyMeetingTypeZoom;
     self.meetKit = [[RTMeetKit alloc] initWithDelegate:self andOption:option];
